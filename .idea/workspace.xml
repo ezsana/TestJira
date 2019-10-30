@@ -15,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraVersionsWithGlass.java">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+            <state relative-caret-position="69">
+              <caret line="136" column="93" lean-forward="true" selection-start-line="136" selection-start-column="79" selection-end-line="136" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,10 +27,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogin.java">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraPermissionsWithGlass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="56" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="56" />
+            <state relative-caret-position="493">
+              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,6 +45,14 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
@@ -67,6 +75,7 @@
     <option name="width" value="650" />
     <option name="height" value="743" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -103,6 +112,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OOP/fourthSIWeek/kitchenManagement" />
@@ -212,7 +222,7 @@
       <workItem from="1572333432047" duration="14292000" />
       <workItem from="1572355534244" duration="2351000" />
       <workItem from="1572373757465" duration="2781000" />
-      <workItem from="1572418230822" duration="5860000" />
+      <workItem from="1572418230822" duration="6538000" />
     </task>
     <servers />
   </component>
@@ -249,7 +259,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52360000" />
+    <option name="totallyTimeSpent" value="53038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -373,6 +383,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraVersionsWithGlass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraPermissionsWithGlass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -385,18 +405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraVersionsWithGlass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+        <state relative-caret-position="69">
+          <caret line="136" column="93" lean-forward="true" selection-start-line="136" selection-start-column="79" selection-end-line="136" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
