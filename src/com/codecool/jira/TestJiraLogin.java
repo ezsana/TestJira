@@ -134,8 +134,8 @@ public class TestJiraLogin {
     @Order(5)
     public void automaticLoginCancelled() {
         webDriver.navigate().to(url);
-        webDriver.findElement(By.id("login-form-username")).sendKeys(username); // Sys getenv
-        webDriver.findElement(By.id("login-form-password")).sendKeys(password); // Sys getenv
+        webDriver.findElement(By.id("login-form-username")).sendKeys(username);
+        webDriver.findElement(By.id("login-form-password")).sendKeys(password);
         webDriver.findElement(By.id("login")).click();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webDriver.findElement(By.id("header-details-user-fullname")).click();
