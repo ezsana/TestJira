@@ -10,25 +10,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class TestJiraPermissionsWithGlass {
-
-    private static String driverPath = System.getenv("DRIVERPATH");
-    private WebDriver webDriver;
-    private String url = "https://jira.codecool.codecanvas.hu";
-    private WebDriverWait wait;
-    private String username = System.getenv("USERNAME");
-    private String password = System.getenv("PASSWORD");
+public class TestJiraPermissionsWithGlass extends MainTest{
 
     @BeforeAll
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", driverPath);
-        webDriver = new ChromeDriver();
-        wait = new WebDriverWait(webDriver, 20);
-        webDriver.manage().window().maximize();
-        webDriver.navigate().to(url);
-        webDriver.findElement(By.id("login-form-username")).sendKeys(username);
-        webDriver.findElement(By.id("login-form-password")).sendKeys(password);
-        webDriver.findElement(By.id("login")).click();
+        super.setUp();
+        super.login();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("browse_link"))).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("project_view_all_link"))).click();
         webDriver.findElement(By.id("project-filter-text")).sendKeys("Private Project 4");
@@ -86,11 +73,8 @@ public class TestJiraPermissionsWithGlass {
 
     @AfterAll
     public void tearDown() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("header-details-user-fullname"))).click();
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("log_out"))).click();
-        if (webDriver != null) {
-            webDriver.quit();
-        }
+        super.logout();
+        super.tearDown();
     }
 
 }

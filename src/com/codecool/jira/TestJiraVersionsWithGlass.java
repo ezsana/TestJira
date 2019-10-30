@@ -2,39 +2,24 @@ package com.codecool.jira;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class TestJiraVersionsWithGlass {
+public class TestJiraVersionsWithGlass extends MainTest{
 
-    private static String driverPath = System.getenv("DRIVERPATH");
-    private WebDriver webDriver;
-    private String url = "https://jira.codecool.codecanvas.hu";
-    private WebDriverWait wait;
-    private String username = System.getenv("USERNAME");
-    private String password = System.getenv("PASSWORD");
 
     @BeforeAll
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", driverPath);
-        webDriver = new ChromeDriver();
-        wait = new WebDriverWait(webDriver, 30);
-        webDriver.manage().window().maximize();
-        webDriver.navigate().to(url);
-        webDriver.findElement(By.id("login-form-username")).sendKeys(username);
-        webDriver.findElement(By.id("login-form-password")).sendKeys(password);
-        webDriver.findElement(By.id("login")).click();
+        super.setUp();
+        super.login();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("browse_link"))).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("project_view_all_link"))).click();
         webDriver.findElement(By.id("project-filter-text")).sendKeys("Private Project 4");
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[title='Private Project 4']"))).click(); // click on PP4 title
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[data-link-id='com.codecanvas.glass:glass']"))).click(); // click on glass doc icon
+        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[data-link-id='com.codecanvas.glass:glass']"))).click(); // click on glass doc icon
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("aui-uid-2"))).click(); // click on Version tab
     }
 
@@ -43,7 +28,7 @@ public class TestJiraVersionsWithGlass {
     @Order(1)
     public void AreAllVersionsUpToDate() {
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        String releaseText = webDriver.findElement(By.cssSelector("#versions-table > .items > tr:nth-child(5) > .versions-table__status > div > span")).getText();
+        String releaseText = webDriver.findElement(By.cssSelector("#versions-table > .items > tr:nth-child(5) > .versions-table__status > div > span")).getText(); // 5.0 version status check
         Assertions.assertEquals("UNRELEASED".toLowerCase(), releaseText.toLowerCase());
     }
 
@@ -82,11 +67,8 @@ public class TestJiraVersionsWithGlass {
 
     @AfterAll
     public void tearDown() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("header-details-user-fullname"))).click();
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("log_out"))).click();
-        if (webDriver != null) {
-            webDriver.quit();
-        }
+       super.logout();
+       super.tearDown();
     }
 
 }

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cef9da09-b1d0-4883-90ac-ad9355e5a755" name="Default Changelist" comment="" />
+    <list default="true" id="cef9da09-b1d0-4883-90ac-ad9355e5a755" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/codecool/jira/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Jira_testing_project/com/codecool/jira/TestJiraBrowseProjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Jira_testing_project/com/codecool/jira/TestJiraBrowseProjects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Jira_testing_project/com/codecool/jira/TestJiraLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Jira_testing_project/com/codecool/jira/TestJiraLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Jira_testing_project/com/codecool/jira/TestJiraLogout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Jira_testing_project/com/codecool/jira/TestJiraLogout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Jira_testing_project/com/codecool/jira/TestJiraPermissionsWithGlass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Jira_testing_project/com/codecool/jira/TestJiraPermissionsWithGlass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Jira_testing_project/com/codecool/jira/TestJiraVersionsWithGlass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Jira_testing_project/com/codecool/jira/TestJiraVersionsWithGlass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codecool/jira/TestJiraBrowseIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codecool/jira/TestJiraBrowseIssue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codecool/jira/TestJiraBrowseProjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codecool/jira/TestJiraBrowseProjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codecool/jira/TestJiraVersionsWithGlass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codecool/jira/TestJiraVersionsWithGlass.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +27,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="136" column="93" lean-forward="true" selection-start-line="136" selection-start-column="79" selection-end-line="136" selection-end-column="93" />
+            <state relative-caret-position="137">
+              <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#7230#7231#0" expanded="true" />
+                <element signature="e#7256#7257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,14 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraPermissionsWithGlass.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraVersionsWithGlass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -51,20 +77,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/codecool/jira/TestJiraBrowseIssue.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/jira/TestJiraPersmissionsWithGlass.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/jira/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/jira/TestJiraPermissionsWithGlass.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/jira/MainTest.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogin.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogout.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/jira/TestJiraBrowseProjects.java" />
-        <option value="$PROJECT_DIR$/src/com/codecool/jira/TestJiraPermissionsWithGlass.java" />
+        <option value="$PROJECT_DIR$/src/com/codecool/jira/TestJiraBrowseIssue.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/jira/TestJiraVersionsWithGlass.java" />
       </list>
     </option>
@@ -81,7 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,6 +131,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,8 +162,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestJiraBrowseProjects.browsingToucanProject">
-    <configuration name="TestJiraBrowseProjects.browsingToucanProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestJiraVersionsWithGlass">
+    <configuration name="TestJiraBrowseIssue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Jira_testing_project" />
       <extension name="coverage">
         <pattern>
@@ -145,12 +172,108 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.codecool.jira" />
-      <option name="MAIN_CLASS_NAME" value="com.codecool.jira.TestJiraBrowseProjects" />
-      <option name="METHOD_NAME" value="browsingToucanProject" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.jira.TestJiraBrowseIssue" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="DRIVERPATH" value="$USER_HOME$/chromedriver.exe" />
+        <env name="USERNAME" value="user8" />
+        <env name="PASSWORD" value="CoolCanvas19." />
+        <env name="INCORRECT_PASSWORD" value="pwd" />
+        <env name="INCORRECT_USERNAME" value="user" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJiraBrowseIssue.browseIssues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jira_testing_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.jira.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.jira" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.jira.TestJiraBrowseIssue" />
+      <option name="METHOD_NAME" value="browseIssues" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <envs>
-        <env name="DRIVERPATH" value="&quot;$USER_HOME$/chromedriver.exe&quot;" />
+        <env name="DRIVERPATH" value="$USER_HOME$/chromedriver.exe" />
+        <env name="USERNAME" value="user8" />
+        <env name="PASSWORD" value="CoolCanvas19." />
+        <env name="INCORRECT_PASSWORD" value="pwd" />
+        <env name="INCORRECT_USERNAME" value="user" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJiraBrowseIssue.searchToucanIssues2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jira_testing_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.jira.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.jira" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.jira.TestJiraBrowseIssue" />
+      <option name="METHOD_NAME" value="searchToucanIssues2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="DRIVERPATH" value="$USER_HOME$/chromedriver.exe" />
+        <env name="USERNAME" value="user8" />
+        <env name="PASSWORD" value="CoolCanvas19." />
+        <env name="INCORRECT_PASSWORD" value="pwd" />
+        <env name="INCORRECT_USERNAME" value="user" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJiraBrowseIssue.searchToucanIssues3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jira_testing_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.jira.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.jira" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.jira.TestJiraBrowseIssue" />
+      <option name="METHOD_NAME" value="searchToucanIssues3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="DRIVERPATH" value="$USER_HOME$/chromedriver.exe" />
+        <env name="USERNAME" value="user8" />
+        <env name="PASSWORD" value="CoolCanvas19." />
+        <env name="INCORRECT_PASSWORD" value="pwd" />
+        <env name="INCORRECT_USERNAME" value="user" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJiraVersionsWithGlass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jira_testing_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.jira.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codecool.jira" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.jira.TestJiraVersionsWithGlass" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="DRIVERPATH" value="$USER_HOME$/chromedriver.exe" />
         <env name="USERNAME" value="user8" />
         <env name="PASSWORD" value="CoolCanvas19." />
         <env name="INCORRECT_PASSWORD" value="pwd" />
@@ -166,7 +289,7 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <envs>
-        <env name="DRIVERPATH" value="&quot;$USER_HOME$/chromedriver.exe&quot;" />
+        <env name="DRIVERPATH" value="$USER_HOME$/chromedriver.exe" />
         <env name="USERNAME" value="user8" />
         <env name="PASSWORD" value="CoolCanvas19." />
         <env name="INCORRECT_PASSWORD" value="pwd" />
@@ -176,7 +299,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test all" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration name="test all" type="JUnit" factoryName="JUnit">
       <option name="PACKAGE_NAME" value="com.codecool.jira" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -186,7 +309,7 @@
         <value defaultName="wholeProject" />
       </option>
       <envs>
-        <env name="DRIVERPATH" value="&quot;$USER_HOME$/chromedriver.exe&quot;" />
+        <env name="DRIVERPATH" value="$USER_HOME$/chromedriver.exe" />
         <env name="USERNAME" value="user8" />
         <env name="PASSWORD" value="CoolCanvas19." />
         <env name="INCORRECT_PASSWORD" value="pwd" />
@@ -198,12 +321,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.test all" />
-      <item itemvalue="JUnit.TestJiraBrowseProjects.browsingToucanProject" />
+      <item itemvalue="JUnit.TestJiraBrowseIssue.browseIssues" />
+      <item itemvalue="JUnit.TestJiraBrowseIssue.searchToucanIssues2" />
+      <item itemvalue="JUnit.TestJiraBrowseIssue.searchToucanIssues3" />
+      <item itemvalue="JUnit.TestJiraBrowseIssue" />
+      <item itemvalue="JUnit.TestJiraVersionsWithGlass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestJiraBrowseProjects.browsingToucanProject" />
-        <item itemvalue="JUnit.test all" />
+        <item itemvalue="JUnit.TestJiraVersionsWithGlass" />
+        <item itemvalue="JUnit.TestJiraBrowseIssue" />
+        <item itemvalue="JUnit.TestJiraBrowseIssue.searchToucanIssues3" />
+        <item itemvalue="JUnit.TestJiraBrowseIssue.searchToucanIssues2" />
+        <item itemvalue="JUnit.TestJiraBrowseIssue.browseIssues" />
       </list>
     </recent_temporary>
   </component>
@@ -222,50 +352,73 @@
       <workItem from="1572333432047" duration="14292000" />
       <workItem from="1572355534244" duration="2351000" />
       <workItem from="1572373757465" duration="2781000" />
-      <workItem from="1572418230822" duration="6538000" />
+      <workItem from="1572418230822" duration="10406000" />
+      <workItem from="1572433353121" duration="5235000" />
     </task>
+    <task id="LOCAL-00001" summary="Develop branch">
+      <created>1572429017090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572429017090</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test branch">
+      <created>1572429049788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572429049788</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test branch">
+      <created>1572429126557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572429126557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestJiraPermissionsWithGlass_testBrowseProjectsPermission - 2019.10.29 at 19h 57m 20s.xml">
-      <configuration name="TestJiraPermissionsWithGlass.testBrowseProjectsPermission" configurationId="JUnit" />
+    <history-entry file="TestJiraBrowseProjects_browsingCoalaProject - 2019.10.30 at 13h 05m 04s.xml">
+      <configuration name="TestJiraBrowseProjects.browsingCoalaProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJiraBrowseProjects - 2019.10.30 at 08h 10m 22s.xml">
-      <configuration name="TestJiraBrowseProjects" configurationId="JUnit" />
+    <history-entry file="TestJiraBrowseProjects_browsingJetiProject - 2019.10.30 at 13h 07m 10s.xml">
+      <configuration name="TestJiraBrowseProjects.browsingJetiProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Jira_testing_project - 2019.10.30 at 09h 32m 27s.xml">
-      <configuration name="All in Jira_testing_project" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJiraLogin - 2019.10.30 at 09h 37m 46s.xml">
-      <configuration name="TestJiraLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJiraLogin - 2019.10.30 at 09h 45m 17s.xml">
-      <configuration name="TestJiraLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJiraLogin_LoginWithCorrectData - 2019.10.30 at 09h 45m 44s.xml">
-      <configuration name="TestJiraLogin.LoginWithCorrectData" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJiraLogin - 2019.10.30 at 09h 47m 20s.xml">
-      <configuration name="TestJiraLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_codecool_jira_in_Jira_testing_project_(1) - 2019.10.30 at 10h 06m 50s.xml">
-      <configuration name="com.codecool.jira in Jira_testing_project (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_all - 2019.10.30 at 10h 13m 35s.xml">
-      <configuration name="test all" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJiraBrowseProjects_browsingToucanProject - 2019.10.30 at 10h 15m 49s.xml">
+    <history-entry file="TestJiraBrowseProjects_browsingToucanProject - 2019.10.30 at 13h 08m 30s.xml">
       <configuration name="TestJiraBrowseProjects.browsingToucanProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJiraBrowseProjects_browsingProjects - 2019.10.30 at 13h 10m 08s.xml">
+      <configuration name="TestJiraBrowseProjects.browsingProjects" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJiraBrowseIssue_searchToucanIssues1 - 2019.10.30 at 13h 20m 55s.xml">
+      <configuration name="TestJiraBrowseIssue.searchToucanIssues1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJiraBrowseIssue_searchToucanIssues1 - 2019.10.30 at 13h 22m 22s.xml">
+      <configuration name="TestJiraBrowseIssue.searchToucanIssues1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJiraBrowseIssue_browseIssues - 2019.10.30 at 13h 23m 35s.xml">
+      <configuration name="TestJiraBrowseIssue.browseIssues" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJiraBrowseIssue_searchToucanIssues2 - 2019.10.30 at 13h 24m 49s.xml">
+      <configuration name="TestJiraBrowseIssue.searchToucanIssues2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJiraBrowseIssue_searchToucanIssues3 - 2019.10.30 at 13h 25m 36s.xml">
+      <configuration name="TestJiraBrowseIssue.searchToucanIssues3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJiraBrowseIssue - 2019.10.30 at 13h 31m 23s.xml">
+      <configuration name="TestJiraBrowseIssue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53038000" />
+    <option name="totallyTimeSpent" value="62141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32083002" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3264166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -274,7 +427,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44155845" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44136807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,6 +451,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Develop branch" />
+    <MESSAGE value="Test branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test branch" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///usr/lib/jvm/java-12-oracle/lib/src.zip!/jdk.jfr/jdk/jfr/Timespan.java">
@@ -325,20 +483,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraBrowseIssue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraEditIssue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogout.java">
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraPermissionsWithGlass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -347,10 +502,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraBrowseProjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="748">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#7230#7231#0" expanded="true" />
+            <element signature="e#7256#7257#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -362,17 +545,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraBrowseIssue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#2298#2299#0" expanded="true" />
+            <element signature="e#2374#2375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraCreateIssue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraEditIssue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -383,33 +592,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraVersionsWithGlass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraPermissionsWithGlass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codecool/jira/TestJiraLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="136" column="93" lean-forward="true" selection-start-line="136" selection-start-column="79" selection-end-line="136" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>

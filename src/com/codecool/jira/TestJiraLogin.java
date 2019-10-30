@@ -2,31 +2,17 @@ package com.codecool.jira;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class TestJiraLogin {
-
-    private static String driverPath = System.getenv("DRIVERPATH");
-    private WebDriver webDriver;
-    private String url = "https://jira.codecool.codecanvas.hu";
-    private WebDriverWait wait;
-    private String username = System.getenv("USERNAME");
-    private String password = System.getenv("PASSWORD");
-    private String incorrectPassword = System.getenv("INCORRECT_PASSWORD");
-    private String incorrectUsername = System.getenv("INCORRECT_USERNAME");
-
+public class TestJiraLogin extends MainTest {
 
     @BeforeAll
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", driverPath);
-        webDriver = new ChromeDriver();
-        wait = new WebDriverWait(webDriver, 20);
+        super.setUp();
     }
 
     // Login - Just login
@@ -35,10 +21,7 @@ public class TestJiraLogin {
     @Test
     @Order(1)
     public void LoginWithCorrectData() {
-        webDriver.navigate().to(url);
-        webDriver.findElement(By.id("login-form-username")).sendKeys(username);
-        webDriver.findElement(By.id("login-form-password")).sendKeys(password);
-        webDriver.findElement(By.id("login")).click();
+        login();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webDriver.findElement(By.id("header-details-user-fullname")).click();
         webDriver.findElement(By.id("view_profile")).click();
@@ -46,20 +29,14 @@ public class TestJiraLogin {
         Assertions.assertEquals("user8", webDriver.findElement(By.id("up-d-username")).getText());
         Assertions.assertEquals("User 8", webDriver.findElement(By.id("up-d-fullname")).getText());
         Assertions.assertEquals("user8@user.com", webDriver.findElement(By.id("up-d-email")).getText());
-        webDriver.findElement(By.id("header-details-user-fullname")).click();
-        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        webDriver.findElement(By.id("log_out")).click();
-        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        logout();
     }
 
     // Unsuccessful login with correct username and incorrect password
     @Test
     @Order(2)
     public void UnsuccessfulLoginWithIncorrectData() {
-        webDriver.navigate().to(url);
-        webDriver.findElement(By.id("login-form-username")).sendKeys(username);
-        webDriver.findElement(By.id("login-form-password")).sendKeys(incorrectPassword); // incorrect password
-        webDriver.findElement(By.id("login")).click();
+        unsuccessfulLogin();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String expectedErrorMessage = "Sorry, your username and password are incorrect - please try again.";
         String errorMessage = webDriver.findElement(By.cssSelector("div[id='usernameerror'] p")).getText();
@@ -85,10 +62,7 @@ public class TestJiraLogin {
     public void multipleLoginAttempts() {
         webDriver.navigate().to(url);
         for (int i = 0; i < 3; i++) {
-            webDriver.navigate().refresh();
-            webDriver.findElement(By.id("login-form-username")).sendKeys(username);
-            webDriver.findElement(By.id("login-form-password")).sendKeys(incorrectPassword); // incorrect password
-            webDriver.findElement(By.id("login")).click();
+            unsuccessfulLogin();
             webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         }
         Assertions.assertTrue(webDriver.findElement(By.id("captchaimg")).isDisplayed());
@@ -101,10 +75,7 @@ public class TestJiraLogin {
     @Test
     @Order(6)
     public void rememberLoginData() {
-        webDriver.navigate().to(url);
-        webDriver.findElement(By.id("login-form-username")).sendKeys(username); // Sys getenv
-        webDriver.findElement(By.id("login-form-password")).sendKeys(password); // Sys getenv
-        webDriver.findElement(By.id("login-form-remember-me")).click();
+        login();
         WebElement rememberMeElement = webDriver.findElement(By.id("login-form-remember-me"));
         Assertions.assertTrue(rememberMeElement.isSelected());
         webDriver.findElement(By.id("login")).click();
@@ -133,10 +104,7 @@ public class TestJiraLogin {
     @Test
     @Order(5)
     public void automaticLoginCancelled() {
-        webDriver.navigate().to(url);
-        webDriver.findElement(By.id("login-form-username")).sendKeys(username);
-        webDriver.findElement(By.id("login-form-password")).sendKeys(password);
-        webDriver.findElement(By.id("login")).click();
+        login();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webDriver.findElement(By.id("header-details-user-fullname")).click();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -151,9 +119,7 @@ public class TestJiraLogin {
 
     @AfterAll
     public void tearDown() {
-        if (webDriver != null) {
-            webDriver.quit();
-        }
+        super.tearDown();
     }
 
 }
